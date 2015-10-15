@@ -4,11 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 end
 
-# use Haml for  templates 
-gem’ haml’
-# use Ruby debugger
-group development, :test do 
-  gem ’ debugger’
-end
+
 
 
